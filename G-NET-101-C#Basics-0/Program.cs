@@ -38,6 +38,24 @@ namespace G_NET_101_C_Basics_0
              */
             #endregion
 
+            #region fourth question
+
+            try
+            {
+                int x = 10;
+                int y = 0;
+                Console.WriteLine(x / y);
+
+            }
+
+            catch
+            {
+                Console.WriteLine("you cannot divide by zero");
+            }
+
+            #endregion
+
+
         }
         #region first 2 questions
         //class Book

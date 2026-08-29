@@ -40,21 +40,31 @@ namespace G_NET_101_C_Basics_0
 
             #region fourth question
 
-            try
-            {
-                int x = 10;
-                int y = 0;
-                Console.WriteLine(x / y);
+            //try
+            //{
+            //    int x = 10;
+            //    int y = 0;
+            //    Console.WriteLine(x / y);
 
-            }
+            //}
 
-            catch
-            {
-                Console.WriteLine("you cannot divide by zero");
-            }
+            //catch
+            //{
+            //    Console.WriteLine("you cannot divide by zero");
+            //}
 
             #endregion
 
+            #region fifth question
+
+            int pages = 300;
+            double pagess = pages;
+            Console.WriteLine(pagess);
+            Console.WriteLine(pagess.GetType());
+
+
+
+            #endregion
 
         }
         #region first 2 questions
